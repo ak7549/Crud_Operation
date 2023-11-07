@@ -1,0 +1,30 @@
+{
+  "students": [
+    {
+      "name": "Ahad",
+      "dob": "23-sep-2912",
+      "email": "akhlakh7549@gmail.com",
+      "phone": "9065455197",
+      "address": "new asholkn nagar",
+      "id": 1
+    },
+    {
+      "name": "Nehal khan",
+      "dob": "83-23-19982",
+      "email": "saifali987az@gmail.com",
+      "phone": "23423",
+      "address": "uttam nage",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

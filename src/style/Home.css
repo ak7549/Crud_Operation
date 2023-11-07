@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .homeMain {
+  }
+  
+  .homeCenter {
+    border-radius: 27px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 100px #5a5a5a, -5px -5px 100px #ffffff;
+    height: 80rem;
+    width: 67rem;
+    border: 1px solid red;
+  }
+  
+  .homeinner {
+    height: 5rem;
+  
+    background: #e0e0e0;
+    box-shadow: 5px 5px 100px #5a5a5a, -5px -5px 100px #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .homeSection {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .homeSection .leftSection {
+    width: 20rem;
+    height: 16rem;
+    border: 2px solid red;
+    background-color: rgb(2, 20, 40);
+  }
+  
+  .homeSection ol li {
+    color: white;
+  }
+  .homeSection ol li a {
+    color: white;
+  }
+  
+  .homeSection .rightSection {
+    width: 60rem;
+    height: 16rem;
+    border: 2px solid green;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 20, 40);
+  }
+  
+  
+  .carousel-inner div img{
+      background-size: cover;
+      height: 300px;
+      width: 300px;
+  }
+  .secondHomeSection{
+      display: flex;
+  }
+  
+  .thirdHomeSection{
+      display: flex;
+      
+  }
+  .thirdHomeSection marquee ul li a{
+      color: red;
+  }
+  .thirdHomeSection marquee ul li {
+      color: red;
+  }
+  
+  
