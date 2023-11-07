@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homeMain {
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeLeft {
+  /* height: 40rem; */
+  width: 23rem;
+  /* border: 2px solid red; */
+}
+
+.homeRight {
+  height: 45rem;
+  width: 40rem;
+  border: 2px solid red;
+}

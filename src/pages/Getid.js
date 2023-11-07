@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "../style/Getid.css";
+import { Avatar } from "@mui/material";
+import img from "../images/profile.png"
 
 const Getid = () => {
   const [id, setId] = useState();
   // console.log(id)
   const [name, setName] = useState();
-  
+
   const [dob, setDob] = useState();
   const [email, setEmail] = useState();
   const [phone, setPhone] = useState();
@@ -29,23 +31,26 @@ const Getid = () => {
   return (
     <div
       className="card container mt-2"
-      style={{ width: "18rem", height: "30rem" }}
+      style={{ width: "18rem", height: "28rem" }}
     >
       <div className="card-body">
-        <h1 className="card-title">{name}</h1>
+      <div className="profile">
+        <img src={img} alt="" />
+      </div>
+      
+        <h2 className="card-title">{name}</h2>
         <h6 className="card-subtitle mb-2 text-body-secondary">
-            Student Id: #An{id}#$ <br />
-            Dob : {dob} <br />
+          Student Id: #TCS{id}#$ <br />
+          Dob : {dob} <br />
           Email: {email} <br />
           Phone: {phone} <br />
           Address: {address} <br />
-
         </h6>
-        <p className="card-text">
-          
-        </p>
-        
-        
+
+        <p className="card-text"></p>
+      </div>
+      <div className="last">
+        <p>	&copy;TechingCenter || 2023</p>
       </div>
     </div>
   );

@@ -18,6 +18,7 @@ const Regis = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     let url = fetch(` http://localhost:4500/students`, {
       method: "post",
       headers: { "Content-type": "application/json" },
@@ -51,6 +52,7 @@ const Regis = () => {
             aria-describedby="emailHelp"
             name="name"
             onChange={handleInput}
+            required
           />
         </div>
 
@@ -65,6 +67,7 @@ const Regis = () => {
             aria-describedby="emailHelp"
             name="dob"
             onChange={handleInput}
+            required
           />
         </div>
 
@@ -79,6 +82,7 @@ const Regis = () => {
             aria-describedby="emailHelp"
             name="email"
             onChange={handleInput}
+            required
           />
         </div>
 
@@ -93,6 +97,7 @@ const Regis = () => {
             aria-describedby="emailHelp"
             name="phone"
             onChange={handleInput}
+            required
           />
         </div>
 
@@ -107,6 +112,7 @@ const Regis = () => {
             aria-describedby="emailHelp"
             name="address"
             onChange={handleInput}
+            required
           />
         </div>
 

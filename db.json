@@ -15,6 +15,54 @@
       "phone": "23423",
       "address": "uttam nage",
       "id": 2
+    },
+    {
+      "name": "saif husssain",
+      "dob": "20-sep-2921",
+      "email": "saifali987az@gmail.com",
+      "phone": "9931459428",
+      "address": "bhagwati bihar",
+      "id": 3
+    },
+    {
+      "name": "Raiyaan khan",
+      "dob": "12-june-2019",
+      "email": "akhlakh7549@gmail.com",
+      "phone": "9065455197",
+      "address": "hydrabaad",
+      "id": 4
+    },
+    {
+      "name": "Nanhe Khan",
+      "dob": "20-sep-2921",
+      "email": "kmdraza47@gmail.com",
+      "phone": "9065455197",
+      "address": "janakpuri",
+      "id": 5
+    },
+    {
+      "name": "Muskan khan",
+      "dob": "38/2/12",
+      "email": "ahad927549@gmail.com",
+      "phone": "234234",
+      "address": "saranpur",
+      "id": 6
+    },
+    {
+      "name": "Aditya Kumar",
+      "dob": "29/2/2023",
+      "email": "adityakumar23@gmail.com",
+      "phone": "83822335533",
+      "address": "Noida sec 23",
+      "id": 7
+    },
+    {
+      "name": "ahad",
+      "dob": "23-sep-2912",
+      "email": "ahad927549@gmail.com",
+      "phone": "9065455197",
+      "address": "New Ashok Nagar",
+      "id": 8
     }
   ],
   "comments": [

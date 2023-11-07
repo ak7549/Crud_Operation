@@ -55,8 +55,8 @@ const RegisData = () => {
     getId("/getId");
   };
   return (
-    <div>
-      <table class="table">
+    <div className="container-fluid mt-3 ">
+      <table class="table table-dark table-striped">
         <thead>
           <tr>
             <th scope="col">Student Id</th>
@@ -65,14 +65,14 @@ const RegisData = () => {
             <th scope="col">Email</th>
             <th scope="col">Phone</th>
             <th scope="col">Address</th>
-            <th></th>
+            <th>Operation / Action</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody >
           {fetchData.map((elem, i) => {
             const { id, name, dob, email, phone, address } = elem;
             return (
-              <tr>
+              <tr >
                 <th scope="row" id="sonu">
                   {i + 1}
                 </th>

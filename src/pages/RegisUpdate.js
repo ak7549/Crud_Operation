@@ -40,7 +40,7 @@ const RegisUpdate = () => {
     }).then(() => {
       swal({
         icon: "success",
-        text: "Form submitted successfully",
+        text: "Form Updated  successfully",
       });
       regisData("/regisData");
     });

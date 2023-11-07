@@ -1,6 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  border-radius: 22px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
 }
 
+.profile img {
+  height: 225px;
+  width: 225px;
+}

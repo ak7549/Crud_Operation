@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "../style/Home.css"
-
-
+import "../style/Home.css";
+import images1 from "../images/image1.jpg";
+import images2 from "../images/images2.jpg";
+import images3 from "../images/Study.webp";
+import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 
 const Home = () => {
-  
-
   return (
     <div className="homeMain">
       <div className="container homeCenter mt-1">
@@ -20,40 +20,42 @@ const Home = () => {
         </div>
         <section className="homeSection mt-2">
           <div className="leftSection">
-            <ol>
+            <ul type="none">
               <li>
-                <a href="">English Courses</a>
+                <DoubleArrowIcon /> <a href="">English Courses</a>
               </li>
               <li>
-                <a href="">Mathematic Courses</a>
-              </li>
-              <li>
-                {" "}
-                <a href="">Spoken Courses</a>
-              </li>
-              <li>
-                <a href="">Hindi Courses</a>
-              </li>
-              <li>
-                <a href="">Science Courses</a>
-              </li>
-              <li>
-                <a href="">English Courses</a>
-              </li>
-              <li>
-                <a href="">Mathematic Courses</a>
+                <DoubleArrowIcon /> <a href="">Mathematic Courses</a>
               </li>
               <li>
                 {" "}
+                <DoubleArrowIcon /> <a href="">Spoken Courses</a>
+              </li>
+              <li>
+                <DoubleArrowIcon /> <a href="">Hindi Courses</a>
+              </li>
+              <li>
+                <DoubleArrowIcon /> <a href="">Science Courses</a>
+              </li>
+              <li>
+                <DoubleArrowIcon />
+                <a href="">English Courses</a>
+              </li>
+              <li>
+                <DoubleArrowIcon /> <a href="">Mathematic Courses</a>
+              </li>
+              <li>
+                {" "}
+                <DoubleArrowIcon />
                 <a href="">Spoken Courses</a>
               </li>
               <li>
-                <a href="">Hindi Courses</a>
+                <DoubleArrowIcon /> <a href="">Hindi Courses</a>
               </li>
               <li>
-                <a href="">Science Courses</a>
+                <DoubleArrowIcon /> <a href="">Science Courses</a>
               </li>
-            </ol>
+            </ul>
           </div>
           <div className="rightSection">
             <div
@@ -63,13 +65,13 @@ const Home = () => {
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  {/* <img src={firstSlider} class="d-block w-100" alt="..." /> */}
+                  <img src={images1} class="d-block w-100" alt="..." />
                 </div>
                 <div class="carousel-item">
-                  {/* <img src={firstSlider} class="d-block w-100" alt="..." /> */}
+                  <img src={images2} class="d-block w-100" alt="..." />
                 </div>
                 <div class="carousel-item">
-                  {/* <img src={firstSlider} class="d-block w-100" alt="..." /> */}
+                  <img src={images3} class="d-block w-100" alt="..." />
                 </div>
               </div>
               <button
@@ -171,43 +173,45 @@ const Home = () => {
                     >
                       <ul type="none">
                         <li>
-                          {/* <ArrowRightIcon /> */}
+                          <DoubleArrowIcon />
+
                           <a href="">
                             Hindi course available only 2000 per months
                           </a>
                         </li>
                         <li>
-                          {/* <ArrowRightIcon /> */}
+                          <DoubleArrowIcon />
                           <a href="">
                             Hindi course available only 2000 per months
                           </a>
                         </li>
                         <li>
-                          {/* <ArrowRightIcon /> */}
+                          <DoubleArrowIcon />
                           <a href="">
                             Hindi course available only 2000 per months
                           </a>
                         </li>
                         <li>
-                          {/* <ArrowRightIcon /> */}
+                          <DoubleArrowIcon />
+
                           <a href="">
                             Hindi course available only 2000 per months
                           </a>
                         </li>
                         <li>
-                          {/* <ArrowRightIcon /> */}
+                          <DoubleArrowIcon />
                           <a href="">
                             Hindi course available only 2000 per months
                           </a>
                         </li>
                         <li>
-                          {/* <ArrowRightIcon /> */}
+                          <DoubleArrowIcon />
                           <a href="">
                             Hindi course available only 2000 per months
                           </a>
                         </li>
                         <li>
-                          {/* <ArrowRightIcon />{" "} */}
+                          <DoubleArrowIcon />
                           <a href="">
                             Hindi course available only 2000 per months
                           </a>
@@ -230,6 +234,41 @@ const Home = () => {
             <a href="">Registration here</a>
           </h2>
         </section>
+        <>
+          <div
+            style={{
+              position: "relative",
+              width: "100%",
+              height: 0,
+              paddingTop: "100.0000%",
+              paddingBottom: 0,
+              boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
+              marginTop: "1.6em",
+              marginBottom: "0.9em",
+              overflow: "hidden",
+              borderRadius: 8,
+              willChange: "transform",
+            }}
+          >
+            <iframe
+              loading="lazy"
+              style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: 0,
+                left: 0,
+                border: "none",
+                padding: 0,
+                margin: 0,
+              }}
+              src="https://www.canva.com/design/DAFzg8ISVfA/view?embed"
+              allowFullScreen="allowfullscreen"
+              allow="fullscreen"
+            ></iframe>
+          </div>
+          
+        </>
       </div>
     </div>
   );
