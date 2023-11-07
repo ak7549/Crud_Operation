@@ -44,12 +44,8 @@ const Getid = () => {
         <p className="card-text">
           
         </p>
-        <a href="#" className="card-link">
-          Card link
-        </a>
-        <a href="#" className="card-link">
-          Another link
-        </a>
+        
+        
       </div>
     </div>
   );
